@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agronegócio do Paraná</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Agronegócio Paraná</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="btn-nav">Início</a></li>
+                <li><a href="graos.html" class="btn-nav">Grãos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>O agro que impulsiona o Paraná</h2>
+            <p>Conheça os setores que fazem do Paraná referência em produção agrícola e pecuária no Brasil.</p>
+        </section>
+
+        <section class="cards">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1600540963955-67d91c58f6c6?auto=format&fit=crop&w=600&q=60" alt="Pecuária">
+                <h3>Pecuária</h3>
+                <p>Bovinos para leite e carne de alta qualidade, com manejo moderno e sustentável.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1600704980563-7a1e4ffbdb05?auto=format&fit=crop&w=600&q=60" alt="Avicultura">
+                <h3>Avicultura</h3>
+                <p>Produção de frango e ovos com tecnologia de ponta e alto padrão sanitário.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1598032892389-1b4a3f5c8fbb?auto=format&fit=crop&w=600&q=60" alt="Suinocultura">
+                <h3>Suinocultura</h3>
+                <p>Criação de suínos com qualidade e eficiência, abastecendo o mercado interno e exportação.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1600488991426-02f8320c09b3?auto=format&fit=crop&w=600&q=60" alt="Piscicultura">
+                <h3>Piscicultura</h3>
+                <p>Produção de tilápia, tambaqui e outras espécies com técnicas sustentáveis e econômicas.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Agronegócio do Paraná. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
