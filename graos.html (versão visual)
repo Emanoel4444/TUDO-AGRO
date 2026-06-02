@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grãos do Paraná</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Grãos Paraná</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="btn-nav">Início</a></li>
+                <li><a href="graos.html" class="btn-nav">Grãos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Principais grãos cultivados no Paraná</h2>
+            <p>Do cultivo à colheita, conheça os grãos que movimentam a economia do estado.</p>
+        </section>
+
+        <section class="cards">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1592928305724-35b2c06677f4?auto=format&fit=crop&w=600&q=60" alt="Amêndoas">
+                <h3>Amêndoas</h3>
+                <p>Produção voltada para exportação e processamento industrial de alta qualidade.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1596448455641-1bbf322d5d9f?auto=format&fit=crop&w=600&q=60" alt="Soja">
+                <h3>Soja</h3>
+                <p>Um dos principais produtos agrícolas do Paraná, com alta produtividade e qualidade.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1601160463291-f1a5f6e0b7b6?auto=format&fit=crop&w=600&q=60" alt="Trigo">
+                <h3>Trigo</h3>
+                <p>Abastece indústrias de panificação e exportação, com grãos de excelente padrão.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=600&q=60" alt="Milho">
+                <h3>Milho</h3>
+                <p>Essencial para ração animal e indústria alimentícia, cultivado em todo o estado.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1617196039621-cd25e3d2d68f?auto=format&fit=crop&w=600&q=60" alt="Aveia">
+                <h3>Aveia</h3>
+                <p>Cultivada para alimentação humana e animal, contribuindo para diversificação agrícola.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Agronegócio do Paraná. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
